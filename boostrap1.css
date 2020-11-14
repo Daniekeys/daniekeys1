@@ -201,6 +201,10 @@ margin-bottom: 5%;
     }
 
 }
+.section-2 .container-fluid{
+    background-color: black;
+    background-image: none;
+}
 
 
 
@@ -235,6 +239,11 @@ margin-bottom: 5%;
     font-size: 30px;
     text-transform: capitalize;
     
+}
+
+.section-2 .container-fluid{
+    background-color: black !important;
+    background-image: none;
 }
     
     .section-1 .col-md-4{
