@@ -249,14 +249,14 @@ SO TRANSLATE Y NEGATIVE MOVES ITS VERTICALLY  TRANSLATE X MOVES IT HORIZONTALLY*
 .col-5 img{
     width: 100%;
     cursor: pointer;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     /* THIS WILL TURN THE IMAGES TO BLACK AND WHITE */
 
 }
-.col-5 img:hover{
+/* .col-5 img:hover{
     filter: grayscale(0);
     /* THIS WILL TURN THE IMAGE BACK TO ITS ORIGINAL COLOR  */
-}
+/*  */
 
 /* ------------------FOOTER-------------------------------------------------- */
 

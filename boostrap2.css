@@ -127,7 +127,7 @@ font-size: 1.1rem;
 }
 /* RESOURCES SESSION */
 .fixed-background{
-    background: url(images/apple.png);
+    background: url( https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272112/apple_yz1ktp.png);
     z-index: -1;
     
 }
