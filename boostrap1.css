@@ -33,19 +33,20 @@ body{
     background-color: transparent;
     transition-property: all 300ms ease-in;
 }
+
 .menu-right:hover{
     color: white;
     background-color: #00e8e8 !important;
 
 }
 .site-content{
-    background: url(Images/computers.png);
+    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272127/computers_of5fn9.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .site-content-1{
-    background: url(images/computers.png);
+    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272127/computers_of5fn9.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -125,7 +126,7 @@ margin-bottom: 5%;
 }
 /* SECTION 2 ############## */
 .section-2 .container-fluid{
-    background-image: url(images/boy.jpg);
+    background-image: url( https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272114/boy_tatepm.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
