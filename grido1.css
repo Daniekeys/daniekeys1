@@ -1,0 +1,448 @@
+
+body{
+    text-decoration: none;
+    list-style: none;
+}
+    .navigation{
+    display: grid;
+    grid-template-columns: 100px 2fr 50px;
+    align-items: center;
+    
+
+}
+.containers{
+    background-color: #0f0e0e;
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    grid-template-areas: "sidebar content-1 content-2"
+                           "sidebar content-1 content-2"
+                              "sidebar content-1 content-2";
+            }
+.linko{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.linko li {
+    list-style: none;
+    text-decoration: none;
+    
+}
+.img{
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sidebar{
+    display: grid;
+    grid-gap: 10px;
+    line-height: 1.5;
+    background-color: black;
+    grid-area: sidebar;
+    padding: 15px 15px auto 20px;
+    height: auto;
+
+}
+.content-1{
+    grid-area: content-1;
+}
+.content-2{
+    grid-area: content-2;
+}
+.listo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-gap: 10px;
+    
+
+}
+
+.listo li a{
+    padding: 10px 15px;
+    color: white;
+
+}
+ .listo li a:hover{
+    background-color: #5f8dca;
+} 
+.texto{
+    color: aliceblue;
+}
+
+
+/* CONTENT-1 SESSION */
+.head{
+    
+    padding: 15px 15px auto 20px;
+}
+
+.design{
+    color: rgba(218, 200, 200, 0.63);
+}
+.form-inline{
+    background: transparent;
+}
+.bxt{
+    height: 40px;
+    width: 220px;
+    background-color: #1d1a1a;
+    border-radius: 20px;
+}
+.carrier{
+    display: flex;
+}
+.bxt-1{
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    background-color: #1d1a1a;;
+}
+.bxt .fa{
+    opacity: 0.6;
+}
+.bxt-1 .fa{
+    opacity: 0.6;
+}
+.form-style::placeholder{
+    color: white;
+}
+.card{
+    background: #1d1a1a;
+    border-radius: 16px;
+}
+.card-img-top{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.child-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px 10px 10px 20px;
+
+}
+.good{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bar{
+    height: 10px;
+    border-radius: 5px;
+    width: 120px;
+    background-color: black;
+}
+.read{
+    width: 90px;
+    height: 10px;
+    background-color: #e7c3ad;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+}
+.bar-1{
+    height: 10px;
+    border-radius: 5px;
+    width: 120px;
+    background-color: #1d1a1a;
+}
+.read-1{
+    width: 70px;
+    height: 10px;
+    background-color: #e7c3ad;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+}
+.bar-2{
+    height: 10px;
+    border-radius: 5px;
+    width: 120px;
+    background-color: #1d1a1a;
+}
+.read-2{
+    width: 50px;
+    height: 10px;
+    background-color: #e7c3ad;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+}
+.child-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    margin: 10px 10px 10px 20px;
+
+}
+.childo{
+    background-image: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1606907976/useful_ktpcps.png);
+    background-size: cover;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+}
+.imaging{
+    width: 200px;
+    height: auto;
+    margin-top: 30%;
+}
+.svg{
+    width: 100%;
+    height: auto;
+}
+.content-2{
+    display: grid;
+    grid-template-rows: 0.7fr 4fr 2fr;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.top .fa{
+    color: white;
+    margin: auto;
+    justify-self: center;
+
+}
+.wrap{
+    padding: 10px;
+    background-color:#1d1a1a;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+.cover{
+    border-left: 1px solid #524d4d;
+    height: auto;
+}
+.section-3{
+    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1606908510/circle-removebg-preview_k3gzff.png);
+    background-size: cover;
+    
+    width: 100%;
+    height: 260px;
+    background-color: #1d1a1a;;
+}
+.secto{
+    
+    padding-top: 80px;
+    padding-left: 55px;
+}
+.splito{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+.con-1, .con-2,
+.con-3,.con-4
+{
+    width: 120px;
+    height: 100px;
+    background-color: #1d1a1a;;
+    border-radius: 20px;
+}
+.value{
+    border-left: 4px solid #6fa528;
+}
+.value-1{
+    border-left: 4px solid #28a1a5;
+}
+.value-2{
+    border-left: 4px solid #b4d61a;
+}
+.value-3{
+    border-left: 4px solid #b6791f;
+}
+
+@media (max-width: 576px) { 
+    .containers{
+        grid-template-columns: 1fr;
+        grid-template-areas: "sidebar"
+                           "content-1 "
+                             " content-2";
+        overflow: hidden;
+        max-width: 100%;                          
+    }
+    .head{
+    
+        padding: 15px 15px auto 20px;
+    }
+    
+    .design{
+        color: rgba(218, 200, 200, 0.63);
+    }
+    .form-inline{
+        background: transparent;
+    }
+    .bxt{
+        height: 40px;
+        width: 160px;
+        background-color: #1d1a1a;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .carrier{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .bxt-1{
+        height: 40px;
+        width: 160px;
+        border-radius: 20px;
+        background-color: #1d1a1a;
+        margin-bottom: 10px;
+
+    }
+    .bxt .fa{
+        opacity: 0.6;
+    }
+    .bxt-1 .fa{
+        opacity: 0.6;
+    }
+    .form-style::placeholder{
+        color: white;
+    }
+    .card{
+        background: #1d1a1a;
+        border-radius: 16px;
+    }
+    .card-img-top{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+    }
+    .child-1{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        margin: 10px 10px 10px 20px;
+    
+    }
+    .child-2{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 10px;
+        margin: 10px 10px 10px 20px;
+    
+    }
+    .childo{
+        background-image: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1606907976/useful_ktpcps.png);
+        background-size: cover;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+    }
+    .imaging{
+        width: 200px;
+        height: auto;
+        margin-top: 30%;
+    }
+    .svg{
+        width: 100%;
+        height: auto;
+    }
+
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .containers{
+        grid-template-columns: 1fr;
+        grid-template-areas: "sidebar"
+                           "content-1 "
+                             " content-2";
+        overflow: hidden;
+        max-width: 100%;                          
+    }
+    .head{
+    
+        padding: 15px 15px auto 20px;
+    }
+    
+    .design{
+        color: rgba(218, 200, 200, 0.63);
+    }
+    .form-inline{
+        background: transparent;
+    }
+    .bxt{
+        height: 40px;
+        width: 160px;
+        background-color: #1d1a1a;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    .carrier{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .bxt-1{
+        height: 40px;
+        width: 160px;
+        border-radius: 20px;
+        background-color: #1d1a1a;
+        margin-bottom: 10px;
+
+    }
+    .bxt .fa{
+        opacity: 0.6;
+    }
+    .bxt-1 .fa{
+        opacity: 0.6;
+    }
+    .form-style::placeholder{
+        color: white;
+    }
+    .card{
+        background: #1d1a1a;
+        border-radius: 16px;
+    }
+    .card-img-top{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+    }
+    .child-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 10px 10px 10px 20px;
+    
+    }
+    .child-2{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: 2fr 1fr;
+        grid-gap: 10px;
+        margin: 10px 10px 10px 20px;
+    
+    }
+    .childo{
+        background-image: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1606907976/useful_ktpcps.png);
+        background-size: cover;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+    }
+    .imaging{
+        width: 200px;
+        height: auto;
+        margin-top: 30%;
+    }
+    .svg{
+        width: 100%;
+        height: auto;
+    }
+}
