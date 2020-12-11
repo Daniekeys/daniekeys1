@@ -1,0 +1,820 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none !important;
+    text-decoration: none;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+    font-family: Proxima-Nova, sans-serif;
+}
+
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(0.8fr, 1fr) ); 
+    /* overflow-x: hidden; */
+
+grid-template-areas: "brandlogo brandlink brand-others";
+padding: 0 3%;
+}
+.link-item{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    border:  1px solid blue;
+}
+.underline{
+    height: 3px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.sign{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 3%;
+    border-radius: 15px;
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid blue;
+    margin-left: 3%;
+    text-decoration: none;
+
+}
+.one, .two{
+    background-color: transparent;
+}
+.fa{
+    background-color: transparent;
+}
+
+.brandlogo{
+    grid-area: brandlogo;
+    margin-top: 2%;
+
+}
+.brandlink{
+    grid-area: brandlink;
+    margin-top: 2%;
+}
+.brand-others{
+    grid-area: brand-others;
+    margin-top: 2%;
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+.super-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.brand-others{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+}
+/* ##################SECTION-2 STARTS HERE */
+.section-2{
+    background: linear-gradient(to right, rgb(58, 123, 213), rgb(34, 73, 127));
+    padding: 0 3%;
+}
+.section-2{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    height: fit-content;
+    overflow: hidden;
+}
+.upper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". upper-spread .";
+}
+
+.upper-spread{
+    grid-area: upper-spread;
+    
+}
+.dstb{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.likko{
+    color: white;
+    text-decoration: none;
+}
+.likko:hover{
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* LOWER DESIGN  */
+.lower{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/* ################## */
+.acc{
+    font-size:3em;
+    color: white;
+    position: relative;
+}
+.wik{
+    position: relative;
+    margin-top: -15px;
+    font-size: 1.2em;
+}
+.car{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.disc{
+    
+    color: white;
+    text-align: center;
+    
+    border-radius: 15px;
+    width: 150px;
+    height: auto;
+}
+.ado{
+    color: white !important;
+    background-color:#04213883;
+    cursor: pointer;
+    outline-style: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* RIGHT-SIDE */
+.right-side{
+    display: grid;
+    grid-template-rows: repeat(4, minmax(0.9fr, autofit));
+    grid-template-columns: repeat(autofit, minmax(0.9fr, 1fr));
+    background-color: white;
+    height: fit-content;
+    box-shadow: 2px 2px 2px #ccc; 
+    border-radius: 5px;
+}
+
+
+.hedings{
+    text-align: center;
+    color:  rgb(58, 123, 213);
+    align-self: center;
+    
+}
+.div{
+    height: 1px;
+    width: 90%;
+    background-color: #333333;
+justify-self: center;
+margin: auto;
+display: block;
+opacity: 0.4;
+}
+.layer-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.1fr;
+    height: fit-content;
+    padding: 5px;
+
+    grid-gap: 10px;
+    height: fit-content;
+    grid-template-areas: "box-1 box-2"
+    "box-3 box-4"                              
+    "dive dive" ;
+}
+.box-1{
+    background-color: #4285f4;
+    width: max-content;
+    padding: 10px 50px;
+    border-radius: 30px;
+    grid-area: box-1;
+
+}
+.box-1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box-1 .fa{
+    color: white;
+}
+.box-4{
+    background-color: #3b5998;
+    width: max-content;
+    padding: 10px 40px;
+    border-radius: 30px;
+    grid-area: box-4;
+
+}
+.box-4 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box-4 .fa{
+    color: white;
+}
+.box-2{
+    background-color: #333333;
+    width: max-content;
+    padding: 10px 50px;
+    border-radius: 30px;
+    grid-area: box-2;
+
+}
+.box-2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box-2 .fa{
+    color: white;
+}
+.box-3{
+    background-color:  #68c5aa;
+    width: max-content;
+    padding: 10px 50px;
+    border-radius: 30px;
+    grid-area: box-3;
+
+}
+.box-3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.box-3 .fa{
+    color: white;
+}
+.dive{
+    height: 1px;
+    width: 90%;
+    background-color: #333333;
+justify-self: center;
+margin: auto;
+display: block;
+opacity: 0.4;
+grid-area: dive;
+}
+.layer-3{
+    height: fit-content;
+}
+form h2{
+    color: black;
+    display: block;
+    margin: auto 10%;
+}
+input[type="text"]{
+    font-size: 14px;
+  max-width: 80%;  
+  width: 80%;
+    min-width: 100px;
+   padding: 10px; 
+   font-family: 'proximal noval',sans-serif;
+   margin: auto;
+   display: block;
+   border-radius: 10px;
+}
+form{
+    margin: auto;
+    display: block;
+}
+.layer-4{
+    display: grid;
+    grid-template-rows: 1fr;
+
+}
+.twos{
+    text-align: center;
+}
+.one1{
+    display: block;
+    margin: 5px auto;
+}
+.button-1 button{
+    margin-left: 40%;
+    background-color: #4285f4;
+    padding: 15px 25px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    
+}
+/* ###########################################SECTION-3########## */
+.section-3{
+    grid-area: section-3;
+    margin: 5% auto;
+}
+.sec-3{
+    
+    width: 80%;
+    
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(61, 61, 61);
+    font-size: 1.65em;
+    font-family: Proxima-Nova;
+    font-weight: 600;
+
+}
+/* #########SECTION-3 IS NOW OVER######## */
+.section-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 6%;
+}
+.up{
+    background-color: #4285f4;
+    width: fit-content;
+    height: auto;
+    padding: 20px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.fab{
+    color: white;
+}
+.up .fa{
+    color: white;
+
+}
+.middle{
+    text-align: center;
+    color: #333333;
+}
+.down{
+    text-align: center;
+    
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+
+}
+
+/* #################SECTION-5################# */
+.section-5{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    grid-area: section-5;
+    
+}
+.one2{
+    display: block;
+    margin: 5px auto;
+}
+.button-2 button{
+    
+    background-color: #3b5998;
+    padding: 10px 20.8px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    
+}
+.button-2 button:hover{
+    background-color: #4285f4;
+    color: white;
+}
+.one3{
+    display: block;
+    margin: 5px auto;
+}
+.button-3 button{
+    margin-right: 1.5rem;
+    background-color: transparent;
+    padding: 10px 20.8px;
+    color: #3b5998;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid #3b5998;
+    
+    
+}
+.button-3 button:hover{
+    color: #4285f4;
+    
+}
+/* ####################SECTION 6 */
+.section-6{
+    grid-area: section-6;
+}
+.section-6{
+    background: linear-gradient(to right, rgb(58, 123, 213), rgb(34, 73, 127));
+    
+    width: 100%;
+    position: relative;
+    height: 200px;
+    margin-top: 3%;
+    transform: skewY(-4deg);
+}
+.sec-4{
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    font-size: 1.85em;
+    font-family: Montserrat;
+    font-weight: 600;
+    max-width: 800px;
+    margin: 0px auto;
+    height: fit-content;
+    padding-top: 70px;
+    transform: skewY(4deg);
+    
+}
+/* ###########SECTION-7####################### */
+.section-7{
+    grid-area: section-7;
+    margin: 5% auto;
+}
+.sec-7{
+    
+    width: 60%;
+    
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(61, 61, 61);
+    font-size: 1.65em;
+    font-family: Proxima-Nova;
+    font-weight: 600;
+
+}
+
+/* SECTION-8##################### */
+
+.section-8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px 3%;
+
+}
+.cardy{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    
+    
+}
+.card-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 0;
+}
+.card-title, .subtitle{
+    text-align: center;
+    
+}
+.subtitle{
+    margin-top: -10px;
+}
+.small{
+    font-size: 1rem;
+    color: #4285f4;
+}
+.btnf{
+    color: white;
+    background-color: #4285f4;
+    border-radius: 20px;
+    padding: 5px 20.0px;
+    display: block;
+    margin: 2px auto 10px;
+    cursor: pointer;
+}
+.section-9{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    grid-area: section-9;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    
+}
+.one2{
+    display: block;
+    margin: 5px auto;
+}
+.button-2 button{
+    
+    background-color: #3b5998;
+    padding: 10px 20.8px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    
+}
+.button-2 button:hover{
+    background-color: #4285f4;
+    color: white;
+}
+.one3{
+    display: block;
+    margin: 5px auto;
+}
+.button-3 button{
+    margin-right: 1.5rem;
+    background-color: transparent;
+    padding: 10px 20.8px;
+    color: #3b5998;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid #3b5998;
+    
+    
+}
+.button-3 button:hover{
+    color: #4285f4;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding:  0 3%;
+    border: 1px solid #ccc;
+    background-color: rgb(238, 238, 238);
+    grid-area: footer;
+}
+.copywrite{
+    margin: auto 20px;
+    font-size: 0.9em;
+}
+.footer-spread{
+    display: flex;
+    flex-direction: row;
+
+}
+.footer-spread a{
+    color: #333333;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.9em;
+}
+.footer-spread li{
+    margin-right: 5%;
+}
+.footer-spread-1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-spread-1 i{
+    margin-right: 10%;
+}
+.footer-icon{
+    float: right;
+}
+.fi-1, .fi-2{
+    margin-right: 20px;
+}
+.fi-1, .fi-2, .fi-3 .fa{
+    color: rgb(131, 131, 131);
+}
+
+
+
+
+
+
+
+/* ########RESPONSIVE PART###### */
+@media (max-width:576px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "section-1"
+        "section-2"
+        "section-3"
+        "section-4"
+        "section-5"
+        "section-6"
+        "section-7"
+         "section-8"
+         "section-9"  
+         "footer"  ;
+    }
+    .section-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        grid-template-areas: "brandlogo"
+        "brandlink"
+        "brand-others"   ;
+        padding: 3%;
+        margin: 0;
+    }
+    .super-link{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    .brand-others{
+        display: grid;
+        grid-template-columns: autofit autofit autofit ;
+    }
+    /* section-2##################### */
+    .section-2{
+        display: grid;
+        grid-template-rows: autofit autofit;
+        height: fit-content;
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+    .upper{
+        display: grid;
+        grid-template-columns: autofit;
+        grid-template-areas: "upper-spread";
+    }
+    .dstb{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .lower{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        overflow-x: hidden;
+        
+    
+    }
+    .right-side{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        background-color: white;
+        height: fit-content;
+    }
+    .layer-2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        height: fit-content;
+        padding: 20px;
+        grid-gap: 10px;
+        height: fit-content;
+        grid-template-areas: "box-1 "
+        "box-2"
+        "box-3 "
+        "box-4"                              
+        "dive " ;
+        overflow-y: hidden;
+    }
+    .box-1, .box-2, .box-3, .box-4{
+        display: block;
+        margin: 5px auto;
+    }
+    .dive{
+        margin-bottom: auto;
+    }
+  /* SECTION-4############3 */
+  .section-4{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .section-5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: space-evenly;
+    
+}
+.button-3, .button-2{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.button-3{
+    margin-left: 5%;
+}
+.one3{
+    width: 100%;
+}
+.sec-7{
+    width: 90%;
+}
+/* SECTION-8 ##################*/
+.section-8{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.section-9{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.button-3{
+    display: block;
+    margin: 10px auto;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.copywrite{
+    margin: auto;
+}
+.footer-icon{
+    margin: auto;
+}
+
+}
+@media (max-width:770px) {
+
+    .layer-2{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        height: fit-content;
+        padding: 20px;
+        grid-gap: 10px;
+        height: fit-content;
+        grid-template-areas: "box-1 "
+        "box-2"
+        "box-3 "
+        "box-4"                              
+        "dive " ;
+        overflow-y: hidden;
+    }
+    .box-1, .box-2, .box-3, .box-4{
+        display: block;
+        margin: 5px auto;
+    }
+    .dive{
+        margin-bottom: auto;
+    }
+
+}
+
+/* ANIMATION CSS############# */
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+    
+  }
+  .animate__animated.animate__fadeInUpBig {
+    --animate-duration: 2s;
+    
+  }
+  .animate__animated.animate__fadeInDownBig {
+    --animate-duration: 2s;
+    
+  }
+    
+
+
+
+
