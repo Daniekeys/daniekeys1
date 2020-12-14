@@ -10,31 +10,36 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #e8dff2;
 }
 .navbar-brand{
-    font-family: 'Righteous', cursive;
+    font-family: 'poppins', cursive;
     font-size: 35px;
-    color: lightcoral !important;
+    color: #54e61b !important;
+}
+header{
+    background-color: white;
 }
 
 .nav-link{
     font-size: 16px;
     margin: 15px;
     text-transform: capitalize;
-    color: black !important;
-    font-family: 'righteous';
+    color: #54e61b !important;
+    font-family: 'poppins';
 }
 .nav-link:hover{
-    color: #00e8e8 !important;
+    color: #38b806 !important;
 }
 .active .nav-link{
-    color: #00e8e8 !important;
+    color: #ffffff !important;
 }
 .menu-right{
     padding: 13px 46px;
     margin: 4%;
     background-color: transparent;
     transition-property: all 300ms ease-in;
+    color: #54e61b;
 }
 
 .menu-right:hover{
@@ -43,7 +48,7 @@ body{
 
 }
 .site-content{
-    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272127/computers_of5fn9.png);
+    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1607955882/plantation_izw8bh.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -56,7 +61,7 @@ body{
 }
 .site-content , .site-desc{
     color: white;
-    font-family: 'righteous';
+    font-family: 'poppins';
 }
 .site-content-1, .site-desc{
     color: white;
@@ -99,7 +104,9 @@ body{
 }
 .card{
     width: 20rem;
-    min-height:450px;
+    height: fit-content;
+    box-shadow: 0px 10px 5px #e6e4e4;
+    background-color: #d9f7cd;
 }
 
     
@@ -128,10 +135,8 @@ margin-bottom: 5%;
     
 }
 /* SECTION 2 ############## */
-.section-2 .container-fluid{
-    background-image: url( https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272114/boy_tatepm.jpg);
-    background-attachment: fixed;
-    background-size: cover;
+.section-2 .con{
+   background-color: #54e61b !important;
 }
 .section-2 .heading-1{
     margin-top: 20%;
@@ -143,7 +148,7 @@ margin-bottom: 5%;
 }
 .section-2 .para{
     color: white;
-    font-family: 'ubuntu';
+    font-family: 'poppins';
     margin-bottom: 7%;
 }
 .section-2 .btn{
@@ -157,22 +162,23 @@ margin-bottom: 5%;
     margin-top: 6%;
 }
 .section-3 i{
-    color: #00e8e8;
+    color: #54e61b;
 }
 .section-3 p{
     color: rgba(0, 0, 0, 0.59);
 }
 /* section4 */
 .section-4{
-    
+    background-color:#54e61b;
     margin-top: 8%;
 }
+
 .section-4 .row .col-md-7 , .col-md-5{
     margin-top: 10%;
     margin-bottom: 10%;
 }
 .section-4 a{
-    color: #00e8e8;
+    color: #54e61b;
     font-size: 40px;
     text-decoration: none;
 }
@@ -185,8 +191,11 @@ margin-bottom: 5%;
 /* footer tag */
 
 .social i{
-    color: #ef5651;
+    color: #54e61b;
     font-size: 20px;
+}
+.btnic{
+    background-color: #54e61b !important;
 }
 
 
@@ -205,7 +214,7 @@ margin-bottom: 5%;
 
 }
 .section-2 .container-fluid{
-    background-color: black;
+    background-color: #54e61b;
     background-image: none;
 }
 
@@ -250,8 +259,10 @@ margin-bottom: 5%;
 }
     
     .section-1 .col-md-4{
-        padding: 5%;
-        margin-left: 8%;
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+        
     }
     .section-1 .card{
         width: 19rem;
