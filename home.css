@@ -142,20 +142,20 @@
      padding-top: 50px;
  }
  footer{
-     background-color: #1a335c;
+     background-color: #1a335c !important;
  }
  footer a{
      text-decoration: none !important;
  }
  footer a:hover{
      padding: 10px;
-     background-color: #c6644f;
+     background-color: #c6644f !important;
  }
  .nav-link:hover{
-     background-color: #c6644f;
+     background-color: #c6644f !important;
  }
  .wrape{
-     /* border: 4px solid #c6644f; */
+     
      padding: 3px;
      box-shadow: 0 0 10px 5px #c6644f;
  }
