@@ -10,6 +10,9 @@
      .horizontal, .underline{
          display: none;
      }
+    .hido{
+        display: none;
+    }
  }
 
  .nav-link{
@@ -48,20 +51,28 @@
      opacity: 0.9;
  }
  .btn-center{
-     color: white;
-       background-color: #c6644f; 
-       display: block;
-       margin: 10px auto;
-       width: fit-content;
+     color: white !important;
+       background-color: #c6644f !important; 
+       display: block !important;
+       margin: 10px auto !important;
+       width: fit-content !important;
  }
  .head{
      color: #333333;
+ }
+ .tas{
+     background-color: #1a335c !important;
  }
  .demo{
      width: 80%;
      height: auto;
     
  }
+ .clients img{
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.9);
+}
  
  .con{
      background-color: #1a335c;
@@ -108,7 +119,9 @@
  }
  .card{
      transform: scale(0.9);
+     box-shadow: 0 10px 10px -5px;
  }
+
  .why{
      color: #1a335c;
      font-family: montserrat ;
@@ -128,4 +141,57 @@
  .upgrade{
      padding-top: 50px;
  }
+ footer{
+     background-color: #1a335c;
+ }
+ footer a{
+     text-decoration: none !important;
+ }
+ footer a:hover{
+     padding: 10px;
+     background-color: #c6644f;
+ }
+ .nav-link:hover{
+     background-color: #c6644f;
+ }
+ .wrape{
+     /* border: 4px solid #c6644f; */
+     padding: 3px;
+     box-shadow: 0 0 10px 5px #c6644f;
+ }
+ .gap{
+     line-height: 1.5;
+     list-style: none;
+
+ }
+ .pod{
+     padding: 10px ;
+     margin: 2px auto;
+ }
+ .pod a{
+     text-decoration: none;
+ }
+ .pop{
+     padding: 10px; 
+     background-color: #1c4c99;
+
+ }
+ .pop:hover{
+   background-color: #c6644f;
+ }
+ .icone .fa{
+     color: #c6644f;
+     margin-right: 15px;
+ }
+ .conto{
+     padding: 15px;
+     margin-left: 15px;
+ }
+ .card-img-top{
+    width: 100%;
+    height: 300px;
+
+}
+
+
  
