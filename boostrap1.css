@@ -28,9 +28,7 @@ header{
     
     font-family: 'poppins';
 }
-.nav-link:hover{
-    color: #38b806 !important;
-}
+
 .active .nav-link{
     color: #ffffff !important;
 }
@@ -48,19 +46,23 @@ header{
 
 }
 .site-content{
-    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272127/computers_of5fn9.png);
+    background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272127/computers_of5fn9.png);    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 90vh;
 
     
 }
-.site-content-1{
+.roll{
+    width: fit-content;
+}
+/* .site-content-1{
     background: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1605272127/computers_of5fn9.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 .site-content , .site-desc{
     color: white;
     font-family: 'poppins';
@@ -80,6 +82,10 @@ header{
     font-size: 50px;
     
     
+}
+.imagen{
+    height: inherit;
+    width: inherit;
 }
 .site-desc{
     font-size: 16px;
@@ -147,9 +153,7 @@ margin-bottom: 5%;
     
 }
 /* SECTION 2 ############## */
-.section-2 .con{
-   background-color: #54e61b !important;
-}
+
 .section-2 .heading-1{
     margin-top: 20%;
     margin-bottom: 4%;
@@ -179,7 +183,7 @@ margin-bottom: 5%;
 }
 /* section4 */
 .section-4{
-    background-color:#54e61b;
+    
     margin-top: 8%;
 }
 
@@ -188,8 +192,8 @@ margin-bottom: 5%;
     margin-bottom: 10%;
 }
 .section-4 a{
-    color: #54e61b;
-    font-size: 40px;
+    
+    font-size: 30px;
     text-decoration: none;
 }
 .section-4 .para-1{
