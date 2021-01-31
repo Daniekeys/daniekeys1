@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.branding{
+font-size: 30px !important;
+font-weight: 700;
+
+}
+.nav-link{
+    font-weight: 500;
+}
+.callig{
+    margin-right: 50px;
+}
+.nav-item{
+    margin-right: 40px;
+}
+.food{
+    
+     justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+    .food::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1609108849/house-1_1_yeqdlo.jpg);
+      background-size: cover;
+      background-position: top center;
+      opacity: 0.5;
+    }
+    nav{
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    .opaque{
+        position: relative;
+        align-self: center;
+        
+        color: white;
+    }
+    .foody{
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin: 200px auto;
+    }
+    .provide{
+        opacity: 0.7;
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .build{
+        font-size: 56px;
+        font-weight: 700;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+    }
+    .nothing{
+        font-size: 40px;
+        font-weight: 700;
+        word-spacing: 5px;
+    }
+    .latest{
+        width: fit-content;
+        padding: 15px 30px;
+        text-transform: capitalize;
+        font-weight: 600;
+        background-color: #0fc0e4e8;
+    }
+    .over{
+        font-size: 28px;
+        font-weight: 400;
+        background-color: #0fc0e4e8;
+    }
+    .bg-primaryy{
+        background-color: #0fc0e4e8;
+    }
+    
+    .carousel {
+        height: 200px !important;
+        width: 100%;
+        justify-self: end;
+    }
+    .count{
+        font-size: 56px;
+        font-weight: 700;
+
+    }
+    .acc{
+        letter-spacing: 5px;
+        font-weight: 200;
+    }
+    .text-primaryy{
+        color: #0fc0e4e8;
+    }
+    .contractor{
+        font-weight: 600;
+    }
+    .company{
+        font-size: 52px;
+        font-weight: 900px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about{
+        font-size: 48px;
+        font-weight: 700px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .bring{
+        letter-spacing: 5px;
+        font-weight: 500;
+    }
+    .story{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /* ############## */
+    .works{
+        color: grey;
+        font-weight: bold;
+    }
+    .completed{
+        font-weight: 700;
+    }
+    .pro{
+        font-size: 52px;
+    }
+    .view{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* ###########SECTION 3 */
+     #section-3{
+         margin-top: 100px !important;
+     }
+    .section-3{
+        justify-content: center;
+       align-items: center; 
+       height: 60vh;
+       position: relative;
+       background-color: black;
+   }
+       .section-3::before {
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-image: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1609108849/house-1_1_yeqdlo.jpg);
+         background-size: cover;
+         background-position: top center;
+         opacity: 0.5;
+       }
+       .promise{
+           font-size: 20px;
+           font-weight: 700;
+       }
+       /* .drop{
+           position: relative;
+           padding-top: 100px;
+       } */
+
+
+                /* REMEMBER TO MAKE USE OF MEDIA SCREEN FOR THE NOTHING LESSS SO THAT REQUEST QUOTE BE IN THE BOX */;
+       
+                #section-4{
+                    margin-top: 100px !important;
+                }
+
+
+
+
+
+
+
+
+                
+                @media (max-width: 600px)  {
+                    .drop{
+                        position: relative;
+                        padding-top: 10px !important;
+                    }
+                }
+             
