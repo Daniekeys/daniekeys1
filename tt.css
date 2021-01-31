@@ -92,7 +92,7 @@ font-weight: 700;
     }
     
     .carousel {
-        height: 200px !important;
+        height: auto !important;
         width: 100%;
         justify-self: end;
     }
@@ -147,13 +147,13 @@ font-weight: 700;
     }
 
     /* ###########SECTION 3 */
-     #section-3{
+     .section-3{
          margin-top: 100px !important;
      }
     .section-3{
         justify-content: center;
        align-items: center; 
-       height: 60vh;
+       height: 80vh;
        position: relative;
        background-color: black;
    }
@@ -181,9 +181,9 @@ font-weight: 700;
 
                 /* REMEMBER TO MAKE USE OF MEDIA SCREEN FOR THE NOTHING LESSS SO THAT REQUEST QUOTE BE IN THE BOX */;
        
-                #section-4{
+                /* .section-4{
                     margin-top: 100px !important;
-                }
+                } */
 
 
 
@@ -198,5 +198,9 @@ font-weight: 700;
                         position: relative;
                         padding-top: 10px !important;
                     }
+                    .section-3{
+                        margin-top: 10px !important;
+                    }
+                   
                 }
              
