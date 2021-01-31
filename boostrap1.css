@@ -63,6 +63,9 @@ header{
     background-size: cover;
     background-attachment: fixed;
 } */
+html {
+    scroll-behavior: smooth;
+}
 .site-content , .site-desc{
     color: white;
     font-family: 'poppins';
