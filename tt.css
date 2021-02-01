@@ -173,6 +173,15 @@ font-weight: 700;
            font-size: 20px;
            font-weight: 700;
        }
+       .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.nav-item:hover{
+    background-color: #0fc0e4e8;
+}
        /* .drop{
            position: relative;
            padding-top: 100px;
@@ -189,7 +198,7 @@ font-weight: 700;
 
 
 
-
+                   
 
 
                 
@@ -200,6 +209,9 @@ font-weight: 700;
                     }
                     .section-3{
                         margin-top: 10px !important;
+                    }
+                    .listop {
+                        font-size: 12px !important;
                     }
                    
                 }
