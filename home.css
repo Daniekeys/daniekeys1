@@ -13,6 +13,9 @@
     .hido{
         display: none;
     }
+    /* .resize{
+        transform: scale(0.5);
+    } */
  }
 
  .nav-link{
@@ -26,6 +29,37 @@
      background-size: cover;
      margin-bottom: 50px;
  }
+ .food{
+    
+    justify-content: center;
+   align-items: center; 
+   height: 100vh;
+   position: relative;
+   background-color: black;
+}
+   .food::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: url(https://res.cloudinary.com/www-daniekeys-com/image/upload/v1609108849/house-1_1_yeqdlo.jpg);
+     background-size: cover;
+     background-position: top center;
+     opacity: 0.5;
+   }
+   nav{
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.opaque{
+    position: relative;
+    align-self: center;
+    
+    color: white;
+}
  .section-1{
      
      width: 80%;
@@ -62,6 +96,9 @@
  }
  .tas{
      background-color: #1a335c !important;
+ }
+ .text-darko{
+     color: #1a335c;
  }
  .demo{
      width: 80%;
@@ -119,8 +156,9 @@
  }
  .card{
      transform: scale(0.9);
-     box-shadow: 0 10px 10px -5px;
+     
  }
+
 
  .why{
      color: #1a335c;
@@ -157,7 +195,7 @@
  .wrape{
      
      padding: 3px;
-     box-shadow: 0 0 10px 5px #c6644f;
+     /* box-shadow: 0 0 10px 5px #c6644f; */
  }
  .gap{
      line-height: 1.5;
@@ -184,13 +222,19 @@
      margin-right: 15px;
  }
  .conto{
-     padding: 15px;
-     margin-left: 15px;
+      padding: 15px 0; 
+     /* margin-left: 15px; */
  }
  .card-img-top{
     width: 100%;
     height: 300px;
 
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 
