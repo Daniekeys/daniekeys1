@@ -59,6 +59,7 @@ ${random ? ` <span class="random">Random Recipe</span>` : ''}
 <p class="retouch">${mealData.strInstructions} </p>
 <button class="watch-btn"><a href="${mealData.strYoutube}" class="watch-link"> watch tutorial</a> </button>
 
+
 `;
 const btn = meal.querySelector('.meal-body .fav-btn');
 btn.addEventListener('click', () => {
@@ -152,6 +153,5 @@ const search = searchTerm.value;
    });
 
 });
-
 
 
