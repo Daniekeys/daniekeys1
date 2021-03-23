@@ -158,3 +158,29 @@ padding: 1rem;
     color: rebeccapurple;
     outline-style: none;
 }
+.watch-btn{
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    /* margin: 10px auto; */
+    width: 100%;
+    height: auto;
+    display: block;
+    place-items: center;
+    border-style: none;
+    outline-style: none;
+}
+.watch-link{
+    color: white;
+    text-decoration: none;
+    
+    padding: 0.5rem 6rem;
+    width: 100%;
+    position: relative;
+}
+.retouch{
+    padding: 0.5rem;
+}

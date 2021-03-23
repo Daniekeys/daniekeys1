@@ -56,6 +56,8 @@ ${random ? ` <span class="random">Random Recipe</span>` : ''}
 <button class="fav-btn"> <i class="fas fa-heart"></i>
   </button>
 </div>
+<p class="retouch">${mealData.strInstructions} </p>
+<button class="watch-btn"><a href="${mealData.strYoutube}" class="watch-link"> watch tutorial</a> </button>
 
 `;
 const btn = meal.querySelector('.meal-body .fav-btn');
