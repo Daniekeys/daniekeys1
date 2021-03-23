@@ -184,3 +184,7 @@ padding: 1rem;
 .retouch{
     padding: 0.5rem;
 }
+.center{
+    text-align: center;
+    margin: 20px 0;
+}
